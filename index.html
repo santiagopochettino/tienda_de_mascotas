@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Veterinaria</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f971dd6960.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="marca">
+            <h1>Veterinaria Pochettino</h1>
+            
+        </div>
+        <nav id="navbar">
+            <div class="myicono">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <ul class="lista-sm">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Clinica">Clinica</a></li>
+                <li><a href="#Farmacia">Farmacia</a></li>
+                <li><a href="#Alimentos">Alimentos</a></li>
+                <li><a href="#Accesorios">Accesorios</a></li>
+                <li><a href="#Peluqueria">Peluqueria</a></li>
+                <li><a href="#Envios">Envios</a></li>
+            </ul>
+        </nav >
+    </header>
+   
+    <section id="Inicio">
+        <div id="imag">
+            <img src="imagenes/marca.jpg"  alt="Logo veterinaria">
+        </div>
+        <article id="text_in"> 
+            <h2>Desde 1991, dedicados a la salud de las mascotas</h2>
+            <p>Nace como empresa familiar, a cargo de <span class="destacado_negro">Luis Fernando Pochettino M.V.</span> , egresado de la facultad de ciencias veterinarias de la universidad nacional de La Plata, en el año 1985, quien ha realizado múltiples cursos y jornadas de capacitación en clínica y cirugía de pequeños animales dentro y fuera del país.</p>
+            <p>La <span class="destacado_negro">experiencia</span>  adquirida en el transcurso de estos 29 años, nos permite resolver y dar un mejor servicio de manera integral a nuestros clientes, dando vital importancia a la <span class="destacado_negro">prevención y diagnostico</span> de las enfermedades.</p>
+           
+        </article>
+        <nav id="botonera_nosotros">
+            <ul>
+                <li><a href="#Inicio" onclick="mostrar('info_Luis')" >Luis Pochettino M.V.</a></li>
+            </ul>
+        </nav>
+        <div id="info_nosotros">
+            <article class="info" id="info_Luis" style="display:none">
+                <img src="imagenes/luis.jpeg" alt="imagen de Luis Pochettino m.v.">
+            </article>
+        </div>
+
+
+        
+    </section>
+
+    <section id="Clinica">
+        <div id="img_clinica">
+            <img src="imagenes/Cruz.jpg" alt="Cruz">
+        </div>
+        <article id="text_c">
+            <h2>Clinica Veterinaria</h2>
+            <p>Donde se realizan revisación, anamnesis, diagnóstico, tratamiento, seguimiento, cirugías y  planes sanitarios.</p>
+            <p>Realizamos una amplia variedad de cirugías como castraciones, piometras, cesáreas , limpieza dental, extirpación de piezas dentarias, otohematomas, torciones gástricas, traumatología y extracción de todo tipo de tumores entre otras.</p>
+            <h2>Planes sanitarios</h2>
+            <p>Vacunación y desparasitación junto con una revisación clinica del individuo.</p>
+
+        </article>
+        
+    </section>
+
+    <section id="Farmacia">
+        <div id="img_farmacia">
+            <img src="https://fotos02.diarioinformacion.com/mmp/2018/04/05/690x278/organizar-medicamentos.jpg.crdownload" alt="medicamentos">
+        </div>
+        <article id="text_f">
+            <h2>Farmacia</h2>
+            <p>Amplia variedad de productos, de diferentes laboratorios.</p>
+            <p>No dudes en consultarnos!</p>
+          
+        </article>
+    </section>
+
+    <section id="Alimentos">
+        <div id="img_alimentos">
+            <img src="https://tuperrohoy.com/wp-content/uploads/2019/11/cachorros-comiendo.jpg" alt="croquetas">
+        </div>
+        <article id="text_al">
+            <h2>Amplia variedad de alimentos para perros y para gatos</h2>
+            <p>Contactanos haciendo click <a href="bootstrap/estilos.html">Acá</a></p>
+        
+
+        </article>
+    </section>
+
+    <section id="Accesorios">
+        <div id="img_accesorios">
+            <img src="data:image/jpeg;base64,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" alt="foto juguetes">
+            <img src="https://ae01.alicdn.com/kf/HTB1yzbVoIyYBuNkSnfoq6AWgVXae/Nuevos-juguetes-interactivos-para-perros-de-10-Uds-Mordedores-de-juguete-para-perros-discos-voladores-cuerdas.jpg" alt="juguetitos">
+        </div>
+        <article id="text_ac">
+            <h2>Catalogo</h2>
+            <ul>
+                <li>Pelotas</li>
+                <li>Huesos</li>
+                <li>comederos</li>
+                <li>Correas y collares</li>
+                <li>Juguetes de plastico</li>
+                <li>Juguetes de soga</li>
+                <li>Jaulas transportadoras</li>
+                <li>Buzos</li>
+                <li>Literas</li>
+                <li>Shampoo</li>
+                <li>Cardinas</li>
+                <li>Pipetas</li>
+                <li>Pidras sanitarias</li>
+                <li>Otros</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="Peluqueria">
+        <div id="img_peluqueria">
+            <img src="https://lh3.googleusercontent.com/G3lKJu_RrfVyWRPXX0N9EXozjw0Fe5NBBxVOnV98tqNwD-ecb5yoYGyIl6fjci-ehsVToFM=w1080-h608-p-no-v0" alt="peluqueria">
+        </div>
+        <article id="text_p">
+            <h2>Peluqueria</h2>
+            <p>Contamos con un servicio que ofrece baños con productos de calidad acorde a las necesidades de cada individuo, cortes a medio pelo a tijera, cortes a maquina, ademas nos ocupamos de cepillar, cortar las uñas y espolones, limpiar oídos y lagrimales y vaciar las glándulas perianales.</p>
+            <p>Lo pueden traer personalmente, sacando turno previamente, sino, contamos con servicio de trasporte.</p>
+        </article>
+    </section>
+    <section id="Envios">
+        <article id="text_en">
+            <table>
+                <tr>
+                    <td><h3>Contacto</h3></td>
+                    <td><h3>Dirección</h3></td>
+                    <td><h3>Horarios</h3></td>
+                </tr>
+                <tr>
+                    <td>Telefono:(0223)491-6611</td>
+                    <td>Av.Paso 2502</td>
+                    <td>Lunes a Sabado 10:00-13:00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>7600 Mar Del Plata</td>
+                    <td>Domingos:Cerrado.</td>
+                </tr>
+            </table>
+        </article>
+        <div id="img_envios">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1FSpp2uL9fuigo2e5I1FF9rxjuaV4mwsu" width="960" height="480"></iframe>
+        </div>
+        
+ 
+    </section>
+   
+   
+    <footer>
+        <div id="img_footer">
+            <img id="img_pie" src="imagenes/marca.jpg" alt="Logo veterinaria">
+        </div>
+        <article id="text_foot">
+            <h2>Turnos al (0223)491-6611</h2>
+            <p>Av. Paso 2502, esquina Santiago del Estero.</p>
+        </article>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
